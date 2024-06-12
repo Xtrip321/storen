@@ -1,0 +1,25 @@
+.catalog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px; /* Espacio entre las cajas */
+    padding: 20px; /* Espacio alrededor de la cuadrícula */
+}
+
+.product-card {
+    max-width: 400px;
+    border: 1px solid #ccc; /* Borde ligero para cada tarjeta de producto */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que todo se quede dentro de los bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera para dar profundidad */
+}
+
+.product-image {
+    width: 100%; /* Hace que la imagen cubra todo el ancho del contenedor */
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+}
+
+.product-info {
+    padding: 10px; /* Espacio dentro de la información del producto */
+    text-align: center; /* Centra el texto */
+}

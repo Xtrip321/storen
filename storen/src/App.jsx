@@ -1,28 +1,26 @@
-import React from 'react'
-import { Footer } from './components/Footer'
-import Header from './components/Header'
-import logoSvg from './assets/svg/storen.svg'
-import './styles/main.css'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Footer } from './components/Footer';
+import Header from './components/Header';
+import Home from './components/main/Home'; // Asumiendo que tienes un componente Home
+import Catalog from './components/catalogo/Catalogo'; // Asumiendo que tienes un componente Catalog
+// import Contact from './components/Contact'; // Asumiendo que tienes un componente Contact
+import './styles/main.css';
 
 const App = () => {
     return (
-        <>
-            <Header />
-            <main>
-                <div className="banner-container">
-                    <div className="banner-adjuster">
-                        <img className='bannerImg' src="/src/assets/imgs/StorenBanner.png" alt="storenBanner" />
-                        <div className="text_logo-adjuster">
-                            <img className='storenLogo' src={logoSvg} alt="LogoStoren" />
-                            <h2>RESISTENCIA Y ESTILO</h2>
-                        </div>
-                        <div className="triangle-down" onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}></div>
-                    </div>
-                </div>
-            </main>
-            <Footer />
-        </>
-    )
-}
+        <Router>
+            <div>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/catalog" element={<Catalog />} />
+                    {/* <Route path="/contact" element={<Contact />} /> */}
+                </Routes>
+                <Footer />
+            </div>
+        </Router>
+    );
+};
 
 export default App;
