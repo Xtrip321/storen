@@ -1,6 +1,7 @@
 import React from 'react'
 import { Footer } from './components/Footer'
 import Header from './components/Header'
+import logoSvg from './assets/svg/storen.svg'
 import './styles/main.css'
 
 const App = () => {
@@ -10,15 +11,12 @@ const App = () => {
             <main>
                 <div className="banner-container">
                     <div className="banner-adjuster">
-                        <img src="/src/assets/imgs/StorenBanner.png" alt="storenBanner" />
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="647.000000pt" height="183.000000pt" viewBox="0 0 647.000000 183.000000"
-                            preserveAspectRatio="xMidYMid meet">
-
-                            <g transform="translate(0.000000,183.000000) scale(0.100000,-0.100000)"
-                                fill="#000000" stroke="none">
-                            </g>
-                        </svg>
+                        <img className='bannerImg' src="/src/assets/imgs/StorenBanner.png" alt="storenBanner" />
+                        <div className="text_logo-adjuster">
+                            <img className='storenLogo' src={logoSvg} alt="LogoStoren" />
+                            <h2>RESISTENCIA Y ESTILO</h2>
+                        </div>
+                        <div className="triangle-down" onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}></div>
                     </div>
                 </div>
             </main>
