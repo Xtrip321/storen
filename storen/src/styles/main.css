@@ -124,3 +124,9 @@ main{
         transform: translateX(-50%) translateY(-5px);
     }
 }
+
+/*GlassesType*/
+
+.glassesType-container{
+    flex:1;
+}
