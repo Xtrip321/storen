@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Importa Link de react-router-dom
 import '../styles/Header.css'; // Importa los estilos específicos para Header
 import logoSvg from '../assets/svg/storen.svg'; // Importa el archivo SVG
 import burgerSvg from '../assets/svg/burger.svg'; // Importa el archivo SVG
@@ -19,17 +20,17 @@ const Header = () => {
 
             <nav className={`menu ${isOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#catalogo">CATÁLOGO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
-                    <li><a href="#sobre-nosotros">SOBRE NOSOTROS</a></li>
+                    <li><Link to="/">INICIO</Link></li>
+                    <li><Link to="/catalog">CATÁLOGO</Link></li>
+                    <li><Link to="/contact">CONTACTO</Link></li>
+                    <li><Link to="/about-us">SOBRE NOSOTROS</Link></li>
                 </ul>
             </nav>
             <button className={`close-button ${isOpen ? 'close-button-open' : ''}`} onClick={toggleMenu}>
-                <img src={closeSvg} alt="Menu" />
+                <img src={closeSvg} alt="Cerrar" />
             </button>
             <div className={`menu-icon ${isOpen ? 'menu-icon-open' : ''}`} onClick={toggleMenu}>
-                <span><img src={burgerSvg} alt="Menu" /></span>
+                <span><img src={burgerSvg} alt="Menú" /></span>
             </div>
         </header>
     );
