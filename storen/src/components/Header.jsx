@@ -23,6 +23,7 @@ const Header = () => {
                     <li><a href="#catalogo">CATÁLOGO</a></li>
                     <li><a href="#contacto">CONTACTO</a></li>
                     <li><a href="#sobre-nosotros">SOBRE NOSOTROS</a></li>
+                    <li><a href="#sobre-nosotros">PRUEBA</a></li>
                 </ul>
             </nav>
             <button className={`close-button ${isOpen ? 'close-button-open' : ''}`} onClick={toggleMenu}>

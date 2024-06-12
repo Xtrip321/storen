@@ -22,6 +22,16 @@ const App = () => {
                     </div>
                 </div>
             </main>
+            <Router>
+                <div>
+                    <Header />
+                    <Navigation />
+                    <Route exact path="/" component={Home} />
+                    <Route path="/contact" component={Contact} />
+                    <Route path="/catalog" component={Catalog} />
+                    <Footer />
+                </div>
+            </Router>
             <Footer />
         </>
     )
