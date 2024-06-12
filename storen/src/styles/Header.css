@@ -1,0 +1,131 @@
+/* Header.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1E1E1E; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+    height: 40px; /* Altura ajustada del logo */
+    width: auto;
+    margin-left: 20px; /* Ajusta para alinear con el texto de la página */
+
+}
+
+.menu {
+    display: flex; /* Asegura que los elementos del menú estén en fila */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center; /* Alinea verticalmente los ítems del menú */
+}
+
+.menu ul{
+    display: flex; /* Asegura que los elementos del menú estén en fila */
+}
+
+.menu li {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0 20px; /* Aumentar el espaciado horizontal entre los elementos del menú */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-size: 16px; /* Tamaño del texto */
+    margin: 0;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+
+
+header .close-button {
+    display: none;
+}
+
+@media (max-width: 805px) {
+    .menu {
+        flex-direction: column; /* Menú en columna solo en móviles */
+        position: fixed; /* Cambiado de absolute a fixed para cubrir toda la pantalla */
+        left: -100%; /* Inicia fuera de la pantalla */
+        top: 0;
+        width: 65%; /* Ancho ajustado al 65% del viewport */
+        height: 100%;
+        background-color: #1E1E1E; /* Fondo negro también para el menú móvil */
+        transition: left 0.3s ease-out; /* Transición suave para el deslizamiento */
+        z-index: 1000; /* Asegura que esté sobre otros contenidos */
+        
+    }
+
+    .menu.open {
+        left: 0; /* Muestra el menú desplazándolo desde la izquierda */
+    }
+
+    .menu ul {
+        position: static; /* Cambio a static para evitar problemas de alineación */
+        flex-direction: column; /* Menú en columna solo en móviles */
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    header .close-button-open {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    header .close-button-open img {
+        width: 2em;
+        height: 2em;
+    }
+
+    .menu li {
+        height: 70px;
+        text-align: center;
+        border-bottom: 1px solid #FFA800;
+        display: flex;          /* Habilita Flexbox */
+        flex-direction: column; /* Los elementos se apilan verticalmente */
+        justify-content: center;/* Centra los elementos verticalmente */
+        align-items: center;    /* Centra los elementos horizontalmente */
+        list-style: none;       /* Elimina los marcadores de lista */
+        padding: 10px;             /* Elimina el padding por defecto */
+
+    }
+
+    .menu li a {
+
+        color: #FFA800;
+    }
+
+    .menu-icon {
+        display: block;
+        color: #fff;
+    }
+
+    .menu-icon-open {
+        display: none;
+    }
+}
+
+
+
