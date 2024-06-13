@@ -21,7 +21,7 @@
 
 .product-title {
     text-align: center;
-    color: #FFA800;
+    color: var(--principalYellow);
     font-size: 1rem;
     margin: 10px 0;
     padding-top: 20px;
@@ -59,7 +59,7 @@
 @media (max-width: 850px) {
     
     .product-card {
-        border-bottom: 2px solid #FFA800;
+        border-bottom: 2px solid var(--principalYellow);
     }
 }
 
@@ -81,7 +81,7 @@
     }
 
     .product-card:hover {
-        border: 2px solid #FFA800;
+        border: 2px solid var(--principalYellow);
     }
 }
 
