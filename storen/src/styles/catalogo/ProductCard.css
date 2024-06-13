@@ -1,0 +1,94 @@
+.product-card {
+    max-width: 810px;
+    width: 100%; /* Asegura que la tarjeta se adapta al contenedor de la grilla */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    position: relative;
+    box-shadow: none; /* Elimina cualquier sombra */
+    border: 2px solid transparent; /* Borde transparente que no afecta la disposición */
+    transition: border-color 0.6s ease; /* Transición suave del color del borde */
+
+}
+
+.product-image {
+    padding-top: 50px;
+    width: 70%;
+    height: auto;
+}
+
+.product-title {
+    text-align: center;
+    color: #FFA800;
+    font-size: 1rem;
+    margin: 10px 0;
+    padding-top: 20px;
+}
+
+.color-options {
+    display: flex;
+    flex-wrap: nowrap; /* Impide que los elementos se envuelvan */
+    overflow-x: auto; /* Permite desplazamiento horizontal si el espacio es insuficiente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.color-image {
+    flex-shrink: 1; /* Permite que la imagen se reduzca si es necesario */
+    min-width: 30px; /* Establece un ancho mínimo para las imágenes */
+    max-width: 60px; /* Establece un ancho mínimo para las imágenes */
+    height: auto; /* Mantiene la proporción de la altura con respecto al ancho */
+    object-fit: contain; /* Asegura que se vea toda la imagen sin recortar */
+}
+
+
+@media (max-width: 400px) {
+
+    .color-image {
+        max-width: 40px; /* Ajusta el tamaño máximo en pantallas pequeñas */
+        min-width: 10px; /* Ajusta el mínimo para mantener la visibilidad */
+    }
+}
+
+@media (max-width: 850px) {
+    
+    .product-card {
+        border-bottom: 2px solid #FFA800;
+    }
+}
+
+@media (min-width: 851px) {
+
+    .product-card {
+        cursor: pointer; /* Cambia el cursor a un puntero */
+    }
+
+    .product-card .color-image {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.6s ease, visibility 0.3s;
+    }
+
+    .product-card:hover .color-image {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .product-card:hover {
+        border: 2px solid #FFA800;
+    }
+}
+
+
+
+
+
+
+
+

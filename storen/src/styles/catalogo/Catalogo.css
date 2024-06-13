@@ -1,16 +1,19 @@
 .catalog-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 20px; /* Espacio entre las cajas */
-    padding: 20px; /* Espacio alrededor de la cuadrícula */
+
+    justify-content: center; /* Centra los elementos de la grilla horizontalmente */
+    justify-items: center; /* Asegura que cada elemento dentro de una celda de grilla esté centrado */
+    align-items: center; /* Alineación vertical */
 }
+
+
 
 .product-card {
     max-width: 400px;
-    border: 1px solid #ccc; /* Borde ligero para cada tarjeta de producto */
-    border-radius: 8px; /* Bordes redondeados */
+    border: none;
     overflow: hidden; /* Asegura que todo se quede dentro de los bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera para dar profundidad */
+    box-shadow: none; /* Elimina cualquier sombra */
 }
 
 .product-image {
@@ -23,3 +26,12 @@
     padding: 10px; /* Espacio dentro de la información del producto */
     text-align: center; /* Centra el texto */
 }
+
+@media (max-width: 430px) {
+    .catalog-container {
+        grid-template-columns: 1fr; /* Solo una columna en pantallas estrechas */
+    }
+
+    
+}
+
