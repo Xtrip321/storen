@@ -13,7 +13,7 @@ body {
     background-color: #F5F5F5;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -45,6 +45,7 @@ main {
 
 :root {
     --principalYellow: #FFA800;
+    --principalGrey: #474747;
 }
 
 
@@ -146,12 +147,23 @@ main {
     }
 }
 
-.main-rest{
+.main-rest {
     width: 100%;
+    min-width: 300px;
     height: 100%;
     z-index: 50;
     background-color: #fff;
 }
+
+.box-container {
+    display: flex;
+    position: relative;
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    text-align: center;
+    min-width: 300px;
+}
+
 
 /*GlassesType*/
 
@@ -163,34 +175,32 @@ main {
 .glassesType-link-adjuster {
     display: flex;
     width: 100%;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .glassesType {
-    display: flex;
-    position: relative;
-    flex: 1 1 50%;
-    box-sizing: border-box;
-    text-align: center;
-    min-width: 300px;
     transition: transform 0.3s ease;
 }
 
+.glassesType img{
+    object-fit: cover;
+}
 
-.glassesType h3{
+
+.glassesType h3 {
     position: absolute;
-    top: 20%; 
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: clamp(2rem, 2vw, 2rem);
 }
 
-.glassesType span{
+.glassesType span {
     color: var(--principalYellow);
 }
 
-.glassesType a{
+.glassesType a {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -199,4 +209,56 @@ main {
 .glassesType:hover {
     transform: scale(1.05);
     z-index: 55;
+}
+
+/* Galery */
+
+.galery-container{
+    display: grid;
+
+    /* CHEQUEAR
+    grid-template-columns: repeat(2, 1fr);*/
+    grid-template-columns: repeat(auto-fit, minmax(8.33%, 1fr));
+    
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.galery-container img{
+    object-fit: cover;
+}
+
+.text-phrases {
+    padding: 10px 20px;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--principalGrey);
+    font-weight: bold;
+    min-height: 400px;
+    font-size: 18px;
+}
+
+.text-phrases h3{
+    font-size: 1.5em;
+}
+
+.text-phrases p{
+    max-width: 500px;
+    font-size: 1em;
+}
+
+.highlight {
+    color: var(--principalYellow);
+}
+
+@media (max-width: 768px) {
+    .galery-container {
+        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    }
+
+    .galery-container > * {
+        min-height: 300px; /* Ajusta la altura mínima si es necesario */
+    }
 }

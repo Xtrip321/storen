@@ -3,6 +3,9 @@ import logoSvg from '../../assets/svg/storen.svg'; // Asegúrate de ajustar la r
 import GlassesType from './GlassesType';
 import sunglasses from '../../assets/imgs/Types/sunglasses.png';
 import optical from '../../assets/imgs/Types/optical.png';
+import storen1 from '../../assets/imgs/Types/storen1.png'
+import storen2 from '../../assets/imgs/Types/storen2.png'
+import GaleryText from './GaleryText';
 
 const Home = () => {
 
@@ -24,7 +27,6 @@ const Home = () => {
     ];
 
 
-
     return (
         <main>
             <div className="general-home-body">
@@ -42,9 +44,26 @@ const Home = () => {
                     <div className="glassesType-container">
                         <div className="glassesType-link-adjuster">
                             {glassesTypes.map((type, index) => (
-                                <GlassesType key={index} type={type} />
+                                <GlassesType
+                                    key={index}
+                                    type={type}
+                                />
                             ))}
                         </div>
+                    </div>
+                    <div className="galery-container">
+                        <GaleryText
+                            h3text="Adentrate a la (Aventura)"
+                            ptext="Nuestros lentes de sol están construidos con materiales de (alta calidad) que resisten impactos, arañazos y condiciones climáticas adversas. Ofrecen (durabilidad) excepcional, (comodidad) y (estilo) en cada aventura."
+                        />
+                        <img
+                            src={storen1}
+                            alt="Lentes de sol en aventura"
+                        />
+                        <img
+                            src={storen2}
+                            alt="Lentes de sol en diversas situaciones"
+                        />
                     </div>
                 </div>
             </div>
