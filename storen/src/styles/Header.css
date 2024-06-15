@@ -74,6 +74,7 @@ header .close-button {
 
     .menu.open {
         left: 0; /* Muestra el menú desplazándolo desde la izquierda */
+        z-index: 100000;
     }
 
     .menu ul {
@@ -96,8 +97,8 @@ header .close-button {
     }
 
     header .close-button-open img {
-        width: 2em;
-        height: 2em;
+        width: 30px;
+        height: 30px;
     }
 
     .menu li {
