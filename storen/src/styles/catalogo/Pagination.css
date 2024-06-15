@@ -1,0 +1,67 @@
+/* Pagination.css */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 8px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.pagination-button,
+.pagination-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 30px;
+    height: 30px;
+}
+
+.pagination-container .outer-border {
+    background: #262626; /* Color del borde */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    height: 100%; /* Asegura que ocupe todo el tamaño del contenedor */
+    width: 100%;
+
+}
+
+.pagination-container .inner-box {
+    background: #F5F5F5; /* Color de fondo */
+    padding: 2px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 9px 100%, 0 calc(100% - 9px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Asegura que ocupe todo el tamaño del contenedor */
+    width: 100%;
+    font-size: 1rem;
+}
+
+.pagination-item.active .outer-border {
+    background: #FFA800; /* Color de la página activa */
+    border-color: #FFA800;
+    color: #FFA800;
+}
+
+.pagination-item.active .outer-border .inner-box {
+    color: #FFA800;
+}
+
+.pagination-button.disabled .outer-border {
+    background: #e0e0e0; /* Color para el estado deshabilitado */
+    cursor: not-allowed;
+    color: #e0e0e0;
+}
+
+.pagination-button.disabled .outer-border svg{
+    cursor: not-allowed;
+    color: #e0e0e0;
+}
