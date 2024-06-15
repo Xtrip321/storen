@@ -1,0 +1,36 @@
+.title-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: #F5F5F5;
+    padding: 30px
+}
+
+
+.outer-border {
+    background: #262626; /* Color del borde */
+    display: inline-block; /* Se adapta al tamaño del contenido */
+    padding: 0.2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 23px 100%, 0 calc(100% - 23px)); /* Tamaño ajustado */
+}
+.inner-box {
+    background: #F5F5F5; /* Color de fondo */
+    padding: 0.5rem 1.8rem; /* Espacio interior ajustado */
+    display: inline-block; /* Se adapta al tamaño del contenido */
+    position: relative;
+    left: 0px; /* Ajustar para centrar dentro del borde */
+    top: 0px; /* Ajustar para centrar dentro del borde */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #262626;
+}
+.line-decorator {
+    position: relative;
+    width: 10%;
+    height: 2px;
+    background-color: #262626;
+    margin-bottom: 3px;
+}
