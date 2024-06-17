@@ -53,12 +53,22 @@ directories.forEach(dir => {
         sizes: characteristics.Talle,
         description: characteristics.Descripción,
         imageUrl: '',
-        colors: []
+        colors: [],
+        additionalImages: [], // Nueva propiedad para otras imágenes MAIN
+        frame: characteristics.Frente,
+        temple: characteristics.Patilla,
+        lens: characteristics.Lente,
+        weight: characteristics.Peso
     };
 
     files.forEach(file => {
         if (file === 'MAIN_1.png') {
             modelInfo.imageUrl = `./src/assets/imgs/Modelos/${dir}/${file}`;
+        } else if (file.startsWith('MAIN_') && file !== 'MAIN_1.png') {
+            modelInfo.additionalImages.push({
+                name: file.split('_')[1].replace('.png', ''),
+                imageUrl: `./src/assets/imgs/Modelos/${dir}/${file}`
+            });
         } else if (file.startsWith('COLOR')) {
             const colorName = file.split('_')[1].replace('.png', '');
             modelInfo.colors.push({
