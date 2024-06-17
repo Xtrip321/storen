@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import Header from './components/Header';
-import Home from './components/main/Home'; // Asumiendo que tienes un componente Home
-import Catalog from './components/catalogo/Catalogo'; // Asumiendo que tienes un componente Catalog
-// import Contact from './components/Contact'; // Asumiendo que tienes un componente Contact
+import Home from './components/main/Home';
+import Catalog from './components/catalogo/Catalogo';
+import LenteDetalle from './components/catalogo/LenteDetalle'; // Importar el nuevo componente
 import './styles/main.css';
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/catalog" element={<Catalog />} />
-                    {/* <Route path="/contact" element={<Contact />} /> */}
+                    <Route path="/catalog/:lensName" element={<LenteDetalle />} /> {/* Nueva ruta */}
                 </Routes>
                 <Footer />
             </div>

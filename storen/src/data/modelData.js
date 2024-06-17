@@ -30,7 +30,21 @@ export const models = [
         "name": "5",
         "imageUrl": "./src/assets/imgs/Modelos/1_Venture/COLOR_5.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/1_Venture/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/1_Venture/MAIN_3.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "40 Gramos"
   },
   {
     "name": "Sungs",
@@ -63,7 +77,21 @@ export const models = [
         "name": "5",
         "imageUrl": "./src/assets/imgs/Modelos/2_Sungs/COLOR_5.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/2_Sungs/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/2_Sungs/MAIN_3.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "40 Gramos"
   },
   {
     "name": "Malaga",
@@ -94,7 +122,21 @@ export const models = [
         "name": "5",
         "imageUrl": "./src/assets/imgs/Modelos/3_Malaga/COLOR_5.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/3_Malaga/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/3_Malaga/MAIN_3.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "50 Gramos"
   },
   {
     "name": "Odisea",
@@ -126,7 +168,21 @@ export const models = [
         "name": "5",
         "imageUrl": "./src/assets/imgs/Modelos/4_Odisea/COLOR_5.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/4_Odisea/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/4_Odisea/MAIN_3.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "35 Gramos"
   },
   {
     "name": "Vector",
@@ -158,7 +214,21 @@ export const models = [
         "name": "5",
         "imageUrl": "./src/assets/imgs/Modelos/5_Vector/COLOR_5.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/5_Vector/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/5_Vector/MAIN_3.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Stealth",
@@ -190,7 +260,21 @@ export const models = [
         "name": "5",
         "imageUrl": "./src/assets/imgs/Modelos/6_Stealth/COLOR_5.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/6_Stealth/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/6_Stealth/MAIN_3.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Crescent",
@@ -222,7 +306,21 @@ export const models = [
         "name": "5",
         "imageUrl": "./src/assets/imgs/Modelos/7_Crescent/COLOR_5.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/7_Crescent/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/7_Crescent/MAIN_3.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Echo",
@@ -254,7 +352,21 @@ export const models = [
         "name": "5",
         "imageUrl": "./src/assets/imgs/Modelos/8_Echo/COLOR_5.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/8_Echo/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/8_Echo/MAIN_3.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Vista",
@@ -290,7 +402,25 @@ export const models = [
         "name": "6",
         "imageUrl": "./src/assets/imgs/Modelos/9_Vista/COLOR_6.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Refine",
@@ -326,7 +456,25 @@ export const models = [
         "name": "6",
         "imageUrl": "./src/assets/imgs/Modelos/10_Refine/COLOR_6.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Optima",
@@ -362,7 +510,25 @@ export const models = [
         "name": "6",
         "imageUrl": "./src/assets/imgs/Modelos/11_Optima/COLOR_6.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Clarity",
@@ -398,7 +564,25 @@ export const models = [
         "name": "6",
         "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/COLOR_6.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Precision",
@@ -434,7 +618,25 @@ export const models = [
         "name": "6",
         "imageUrl": "./src/assets/imgs/Modelos/13_Precision/COLOR_6.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Exact",
@@ -470,7 +672,25 @@ export const models = [
         "name": "6",
         "imageUrl": "./src/assets/imgs/Modelos/14_Exact/COLOR_6.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Grace",
@@ -506,7 +726,25 @@ export const models = [
         "name": "6",
         "imageUrl": "./src/assets/imgs/Modelos/15_Grace/COLOR_6.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   },
   {
     "name": "Facet",
@@ -542,6 +780,24 @@ export const models = [
         "name": "6",
         "imageUrl": "./src/assets/imgs/Modelos/16_Facet/COLOR_6.png"
       }
-    ]
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
   }
 ];

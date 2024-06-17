@@ -1,20 +1,18 @@
 import React from 'react';
 import '../styles/Title.css';  // Importa la hoja de estilos CSS
 
-const Title = ({ text }) => {
+const Title = ({ text, color }) => {
   return (
-    <div class="title-container-main">
-    <div class="title-container">
-        <div class="line-decorator">
+    <div className="title-container-main">
+      <div className="title-container">
+        <div className="line-decorator" style={{ backgroundColor: color }}></div>
+        <div className="outer-border" style={{ backgroundColor: color }}>
+          <div className="inner-box" style={{ color: color }}>
+            {text}
+          </div>
         </div>
-        <div class="outer-border">
-            <div class="inner-box">
-                {text}
-            </div>
-        </div>
+      </div>
     </div>
-    
-</div>
   );
 }
 
