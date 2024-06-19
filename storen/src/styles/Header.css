@@ -1,6 +1,7 @@
 /* Header.css */
 header {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -16,7 +17,6 @@ header {
 .logo img {
     height: 40px; /* Altura ajustada del logo */
     width: auto;
-    margin-left: 20px; /* Ajusta para alinear con el texto de la página */
 
 }
 
