@@ -42,9 +42,13 @@ const ContactForm = () => {
         <main>
             <div className="form-adjuster">
                 <div className="logo-form-container">
-                    <img className='storenLogo' src={logoSvgBlack} alt="LogoStoren" />
-                    <h2>RESISTENCIA Y ESTILO</h2>
+                <img className='storenLogo' src={logoSvgBlack} alt="LogoStoren" />
+                <h2>RESISTENCIA Y ESTILO</h2>
                 </div>
+                <GaleryText
+                    h3text="Ponte en (Contacto)!"
+                    ptext="En (STOREN), nos dedicamos a fabricar lentes de la más alta calidad para todo tipo de necesidades, desde lentes de sol hasta soluciones ópticas especializadas. Si tienes alguna pregunta, consulta, o simplemente deseas conocer más sobre nuestros productos y servicios, estamos aquí para ayudarte."
+                />
                 <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
                     <div className="form-group">
                         <label htmlFor="name">Nombre:</label>
