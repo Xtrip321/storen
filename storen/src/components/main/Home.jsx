@@ -33,7 +33,7 @@ const Home = () => {
             <div className="general-home-body">
                 <div className="banner-container">
                     <div className="banner-adjuster">
-                        <img className='bannerImg' src="/src/assets/imgs/StorenBanner.png" alt="storenBanner" />
+                        <img className='bannerImg' src="/src/assets/imgs/StorenBanner.png" alt="storen" />
                         <div className="text_logo-adjuster">
                             <img className='storenLogo' src={logoSvg} alt="LogoStoren" />
                             <h2>RESISTENCIA Y ESTILO</h2>

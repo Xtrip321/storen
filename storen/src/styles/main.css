@@ -39,10 +39,6 @@ button {
     cursor: pointer;
 }
 
-main {
-    margin-top: 100vh;
-}
-
 :root {
     --principalYellow: #FFA800;
     --principalGrey: #474747;
@@ -59,7 +55,7 @@ main {
 /* Banner / Inicio */
 
 .banner-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -153,6 +149,7 @@ main {
     height: 100%;
     z-index: 50;
     background-color: #fff;
+    margin-top: 100vh;
 }
 
 .box-container {
@@ -182,7 +179,7 @@ main {
     transition: transform 0.3s ease;
 }
 
-.glassesType img{
+.glassesType img {
     object-fit: cover;
 }
 
@@ -213,7 +210,7 @@ main {
 
 /* Galery */
 
-.galery-container{
+.galery-container {
     display: grid;
     /* CHEQUEAR
     grid-template-columns: repeat(2, 1fr);*/
@@ -222,11 +219,11 @@ main {
     box-sizing: border-box;
 }
 
-.galery-container > div:first-child {
+.galery-container>div:first-child {
     grid-column: span 2;
 }
 
-.galery-container img{
+.galery-container img {
     object-fit: cover;
 }
 
@@ -242,11 +239,11 @@ main {
     font-size: 18px;
 }
 
-.text-phrases h3{
+.text-phrases h3 {
     font-size: 1.5em;
 }
 
-.text-phrases p{
+.text-phrases p {
     max-width: 500px;
     font-size: 1em;
 }
@@ -257,10 +254,12 @@ main {
 
 @media (max-width: 768px) {
     .galery-container {
-        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+        grid-template-columns: 1fr;
+        /* Una columna en pantallas pequeñas */
     }
 
-    .galery-container > * {
-        min-height: 300px; /* Ajusta la altura mínima si es necesario */
+    .galery-container>* {
+        min-height: 300px;
+        /* Ajusta la altura mínima si es necesario */
     }
 }
