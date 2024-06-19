@@ -19,7 +19,7 @@ body {
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
 }
 
@@ -215,13 +215,15 @@ main {
 
 .galery-container{
     display: grid;
-
     /* CHEQUEAR
     grid-template-columns: repeat(2, 1fr);*/
-    grid-template-columns: repeat(auto-fit, minmax(8.33%, 1fr));
-    
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
     box-sizing: border-box;
+}
+
+.galery-container > div:first-child {
+    grid-column: span 2;
 }
 
 .galery-container img{

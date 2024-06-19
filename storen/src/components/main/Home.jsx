@@ -5,6 +5,7 @@ import sunglasses from '../../assets/imgs/Types/sunglasses.png';
 import optical from '../../assets/imgs/Types/optical.png';
 import storen1 from '../../assets/imgs/Types/storen1.png'
 import storen2 from '../../assets/imgs/Types/storen2.png'
+import storen3 from '../../assets/imgs/Types/storen3.png'
 import GaleryText from './GaleryText';
 
 const Home = () => {
@@ -52,6 +53,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="galery-container">
+
+                        <img
+                            src={storen3}
+                            alt="Lentes de sol en aventura"
+                        />
                         <GaleryText
                             h3text="Adentrate a la (Aventura)"
                             ptext="Nuestros lentes de sol están construidos con materiales de (alta calidad) que resisten impactos, arañazos y condiciones climáticas adversas. Ofrecen (durabilidad) excepcional, (comodidad) y (estilo) en cada aventura."
@@ -60,11 +66,21 @@ const Home = () => {
                             src={storen1}
                             alt="Lentes de sol en aventura"
                         />
+                    </div>
+                    <div className="galery-container">
+                        <GaleryText
+                            h3text="Descubre la (Versatilidad) en Estilo"
+                            ptext="Desde el dinamismo (Urbano) hasta un evento (Formal), cada par es creado para quienes buscan un (Equilibrio) perfecto entre (Apariencia) y (Practicidad)."
+                        />
                         <img
                             src={storen2}
                             alt="Lentes de sol en diversas situaciones"
                         />
                     </div>
+                    <GaleryText
+                        h3text="Descubre la (Versatilidad) en Estilo"
+                        ptext="Desde el dinamismo (Urbano) hasta un evento (Formal), cada par es creado para quienes buscan un (Equilibrio) perfecto entre (Apariencia) y (Practicidad)."
+                    />
                 </div>
             </div>
         </main>
