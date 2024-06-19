@@ -59,7 +59,7 @@ const Catalog = () => {
 
     return (
         <>
-            <Title text={"CATÁLOGO"} />
+            <Title text={"CATÁLOGO"} color="#262626" />
             <div className="filter-panel-container">
                 <button className="filter-button" onClick={toggleFilters}>
                     <FontAwesomeIcon icon={faFilter} /> FILTROS
@@ -111,7 +111,8 @@ const Catalog = () => {
             <div className="catalog-container">
                 {paginatedModels.map((product, index) => (
                     <ProductCard key={index} product={product} />
-                ))}
+                    
+                ))} 
             </div>
             <Pagination 
                 currentPage={currentPage} 
