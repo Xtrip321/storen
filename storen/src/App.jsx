@@ -7,6 +7,7 @@ import Catalog from './components/catalogo/Catalogo';
 import LenteDetalle from './components/catalogo/LenteDetalle'; // Importar el nuevo componente
 import './styles/main.css';
 import ContactForm from './components/contact/Contact';
+import AboutUs from './components/aboutUs/AboutUs';
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
                     <Route path="/catalog" element={<Catalog />} />
                     <Route path="/catalog/:lensName" element={<LenteDetalle />} /> {/* Nueva ruta */}
                     <Route path="/contact" element={<ContactForm />} />
+                    <Route path="/about-us" element={<AboutUs />} />
                 </Routes>
                 <Footer />
             </div>

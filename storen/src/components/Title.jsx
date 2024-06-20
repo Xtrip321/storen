@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Title.css';  // Importa la hoja de estilos CSS
+import '../styles/Title.css';
 
 const Title = ({ text, color }) => {
   return (
