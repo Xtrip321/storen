@@ -1,0 +1,78 @@
+.aboutUs-adjuster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUs-text-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: start;
+    max-width: 1000px;
+    margin-bottom: 24px;
+    padding: 10px;
+}
+
+
+.aboutUs-text-img-container.alt-order {
+    direction: rtl;
+}
+
+.aboutUs-text-img-container.alt-order > * {
+    direction: ltr;
+}
+
+
+.aboutUs-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutUs-text-container .text-phrases {
+    align-items: start;
+    margin-bottom: 16px;
+    min-height: 0;
+    padding: 0;
+}
+
+.aboutUs-text-container .text-phrases:last-child {
+    margin-bottom: 0;
+}
+
+.aboutUs-text-container .box-container {
+    text-align: start;
+}
+
+.aboutUs-text-img-container img {
+    width: 100%;
+    object-fit: cover;
+    justify-self: start;
+}
+
+/* Responsivo para pantallas más pequeñas */
+@media (max-width: 900px) {
+    .aboutUs-text-img-container {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        direction: ltr;
+    }
+
+    .aboutUs-text-container {
+        order: 1;
+    }
+
+    .aboutUs-text-img-container img {
+        order: 2;
+        max-height: none;
+        margin-bottom: 16px;
+    }
+}
+
+/* Mejorar la disposición en tabletas */
+@media (min-width: 600px) and (max-width: 900px) {
+    .aboutUs-text-img-container img {
+        width: 100%;
+    }
+}
