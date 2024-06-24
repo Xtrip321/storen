@@ -93,7 +93,9 @@ button {
 
 .text_logo-adjuster h2 {
     color: #fff;
-    font-size: clamp(1rem, 2vw, 2rem)
+    font-size: clamp(1rem, 2vw, 2rem);
+    margin-bottom: 20px;
+    
 }
 
 .storenLogo {
@@ -259,7 +261,7 @@ button {
     font-size: 18px;
 }
 
-.text-container .direct-button{
+.direct-button{
     color: #F5F5F5;
     text-align: center;
     background-color: var(--principalYellow);
@@ -267,12 +269,11 @@ button {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
-    max-width: 200px;
     padding: 16px 35px;
     transition: .2s ease-in;
 }
 
-.text-container .direct-button:hover{
+.direct-button:hover{
     transform: scale(1.10);
     background-color: #ffba2f;
 }

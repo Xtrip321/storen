@@ -40,6 +40,10 @@ const Home = () => {
                         <div className="text_logo-adjuster">
                             <img className='storenLogo' src={logoSvg} alt="LogoStoren" />
                             <h2>RESISTENCIA Y ESTILO</h2>
+                            <DirectBtn
+                                title="Descrubre nuestro Catalogo"
+                                blinPath="/catalog"
+                            />
                         </div>
                         <div className="triangle-down" onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}></div>
                     </div>
