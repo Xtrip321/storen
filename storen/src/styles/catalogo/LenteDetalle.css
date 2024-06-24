@@ -18,17 +18,24 @@
     position: relative;
 }
 
+.lens-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    max-height: 400px;
+}
+
 .main-image {
     width: 100%;
     max-width: 500px;
-    height: auto;
-    margin-bottom: 20px;
+    object-fit: contain;
 }
 
 .additional-images {
     display: flex;
     justify-content: flex-start;
-    margin-top: 10px;
     width: 100%;
     gap: 10px;
     overflow-x: auto;
@@ -42,6 +49,7 @@
     cursor: pointer;
     border-radius: 5px;
     transition: opacity 0.3s;
+    object-fit: contain;
 }
 
 .additional-image:hover {

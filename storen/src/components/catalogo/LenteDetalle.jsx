@@ -79,7 +79,9 @@ const LensDetail = () => {
                 <div className="lens-images">
                     <button onClick={() => handleNavigation('prev')} className="nav-button prev-button"></button>
                     {/* Imágenes del carrusel */}
-                    <img src={mainImageSrc} alt={lens.name} className={`main-image ${selectedColorIndex !== null ? 'hidden' : ''}`} />
+                    <div className='lens-image-container'>
+                        <img src={mainImageSrc} alt={lens.name} className={`main-image ${selectedColorIndex !== null ? 'hidden' : ''}`} />
+                    </div>
                     {/* Imagen de color seleccionada */}
                     {selectedColorImageSrc && (
                         <img src={selectedColorImageSrc} alt={`Color seleccionado`} className={`color-main-image`} />

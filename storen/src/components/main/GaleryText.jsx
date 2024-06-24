@@ -17,8 +17,10 @@ export const GaleryText = ({ h3text, ptext }) => {
 
   return (
     <div className="box-container text-phrases">
-      <h3>{formatText(h3text)}</h3>
-      <p>{formatText(ptext)}</p>
+      <div className="phrases-container">
+        <h3>{formatText(h3text)}</h3>
+        <p>{formatText(ptext)}</p>
+      </div>
     </div>
   );
 };
