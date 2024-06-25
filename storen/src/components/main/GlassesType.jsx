@@ -5,7 +5,7 @@ export const GlassesType = ({ type }) => {
         <div className='box-container glassesType'>
             <h3><span>{type.firtLetterTitle}</span>{type.RestTitle}</h3>
             <img src={type.image} alt={type.imgDescription} />
-            <a href={type.link} target="_blank" rel="noopener noreferrer"></a>
+            <a href={type.link} rel="noopener noreferrer"></a>
         </div>
     )
 }

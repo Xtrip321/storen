@@ -18,6 +18,7 @@ footer {
 
 .footer-adjuster {
     padding: 10px;
+    gap: 10px;
 }
 
 .footer-adjuster img {
@@ -33,7 +34,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin: 10px 0 20px 0;
 }
 
 .socialMedia-container a div{
@@ -41,8 +42,35 @@ footer {
     border-radius: 10px;
 }
 
+.socialMedia-container a div:hover{
+    background-color: transparent;
+}
+
 .socialMedia-container a div .socialMedia-img{
     width: 35px;
     height: 35px;
     padding: 5px;
+}
+
+.new-ul{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.new-ul li:hover{
+    text-decoration: underline;
+}
+
+.footer-absolute{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.socialMedia-container h4{
+    line-height: 35px;
 }
