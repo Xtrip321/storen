@@ -45,7 +45,7 @@ const Home = () => {
                                 blinPath="/catalog"
                             />
                         </div>
-                        <div className="triangle-down" onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}></div>
+                        <div className="triangle-down" onClick={() => window.scrollTo({ top: window.innerHeight - 70, behavior: 'smooth' })}></div>
                     </div>
                 </div>
                 <div className="main-rest">
@@ -69,7 +69,7 @@ const Home = () => {
                                     />
                                     <DirectBtn
                                         title="Explorar"
-                                        blinPath="/"
+                                        blinPath="/catalog"
                                     />
                                 </div>
                                 <div className="img-container">
@@ -89,7 +89,7 @@ const Home = () => {
                                     />
                                     <DirectBtn
                                         title="Explorar"
-                                        blinPath="/"
+                                        blinPath="/catalog"
                                     />
                                 </div>
                                 <div className="img-container">
@@ -109,7 +109,7 @@ const Home = () => {
                                     />
                                     <DirectBtn
                                         title="Explorar"
-                                        blinPath="/"
+                                        blinPath="/catalog"
                                     />
                                 </div>
                                 <div className="img-container">

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Importa Link de react-router-dom
-import '../styles/Header.css'; // Importa los estilos específicos para Header
-import logoSvg from '../assets/svg/storen.svg'; // Importa el archivo SVG
-import burgerSvg from '../assets/svg/burger.svg'; // Importa el archivo SVG
-import closeSvg from '../assets/svg/cerrar.svg'; // Importa el archivo SVG
+import { Link } from 'react-router-dom';
+import '../styles/Header.css';
+import logoSvg from '../assets/svg/storen.svg';
+import burgerSvg from '../assets/svg/burger.svg';
+import closeSvg from '../assets/svg/cerrar.svg';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);

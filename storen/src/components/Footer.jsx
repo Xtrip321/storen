@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "../styles/footer.css"
 import facebook from '../assets/svg/socialMediaSVG/facebook.svg'
 import instagram from '../assets/svg/socialMediaSVG/instagram.svg'
@@ -22,10 +23,21 @@ export const Footer = () => {
             </div>
           </a>
         </div>
+        <ul className='new-ul'>
+          <li><Link to="/contact">CONTACTO</Link></li>
+          <li><Link to="/about-us">SOBRE NOSOTROS</Link></li>
+        </ul>
+        <div className="footer-absolute ">
+          <div className="rigths-container">
+            <h4>Storen®</h4>
+            <h4>Storen Argentina®</h4>
+          </div>
+          <div className="to-developers">
+            <h4>Desarrollado por Clock Gate Dev®</h4>
+          </div>
+        </div>
       </div>
-      <div className="to-developers">
 
-      </div>
     </footer>
   )
 }

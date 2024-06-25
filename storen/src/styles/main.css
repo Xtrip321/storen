@@ -326,6 +326,10 @@ button {
     .img-container img {
         height: auto;
     }
+    
+    .text_logo-adjuster{
+        bottom: 100px;
+    }
 }
 
 @media (max-width: 805px) {
