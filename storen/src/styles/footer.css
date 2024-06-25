@@ -35,3 +35,14 @@ footer {
     gap: 10px;
     margin-top: 10px;
 }
+
+.socialMedia-container a div{
+    background-color: var(--principalYellow);
+    border-radius: 10px;
+}
+
+.socialMedia-container a div .socialMedia-img{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}

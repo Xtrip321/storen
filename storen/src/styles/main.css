@@ -238,6 +238,7 @@ button {
 .img-container {
     width: 50%;
     box-sizing: border-box;
+    max-height: 1000px;
 }
 
 .img-container img {
@@ -253,6 +254,7 @@ button {
     width: 50%;
     margin: auto;
     box-sizing: border-box;
+    padding: 20px;
 }
 
 .text-phrases {

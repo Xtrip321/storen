@@ -1,5 +1,5 @@
 import React from 'react';
-import logoSvg from '../../assets/svg/storen.svg'; // Asegúrate de ajustar la ruta si es necesario
+import logoSvg from '../../assets/svg/storen.svg';
 import GlassesType from './GlassesType';
 import sunglasses from '../../assets/imgs/Types/sunglasses.png';
 import optical2 from '../../assets/imgs/Types/optical2.jpeg';
