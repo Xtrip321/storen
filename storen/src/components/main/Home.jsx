@@ -1,5 +1,5 @@
 import React from 'react';
-import logoSvg from '../../assets/svg/storen.svg'; // Asegúrate de ajustar la ruta si es necesario
+import logoSvg from '../../assets/svg/storen.svg';
 import GlassesType from './GlassesType';
 import sunglasses from '../../assets/imgs/Types/sunglasses.png';
 import optical2 from '../../assets/imgs/Types/optical2.jpeg';
@@ -40,6 +40,10 @@ const Home = () => {
                         <div className="text_logo-adjuster">
                             <img className='storenLogo' src={logoSvg} alt="LogoStoren" />
                             <h2>RESISTENCIA Y ESTILO</h2>
+                            <DirectBtn
+                                title="Descrubre nuestro Catalogo"
+                                blinPath="/catalog"
+                            />
                         </div>
                         <div className="triangle-down" onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}></div>
                     </div>
