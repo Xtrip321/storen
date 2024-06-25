@@ -13,24 +13,28 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    padding: 55px;
+
     text-align: center;
     position: relative;
+    max-height: 800px;
+    width: 100%;
+
 }
 
-.lens-image-container{
+.lens-image-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 400px;
-    max-height: 400px;
+    width: 100%;
+    max-width: 500px; /* Limitar el ancho máximo del contenedor */
+    margin-bottom: 30px;
 }
 
-.main-image {
-    width: 100%;
-    max-width: 500px;
-    object-fit: contain;
+.main-image, .color-main-image {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    max-width: 100%; /* Asegura que no sobrepase el contenedor */
+    height: 300px; /* Permitir que la altura se ajuste automáticamente */
+    object-fit: contain; /* Mantener la proporción de la imagen */
 }
 
 .additional-images {
@@ -39,12 +43,18 @@
     width: 100%;
     gap: 10px;
     overflow-x: auto;
+    overflow-y: hidden; /* Asegura que no haya barra de desplazamiento vertical */
+    scrollbar-width: none; /* Para Firefox */
+}
+
+.additional-images::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari y Opera */
 }
 
 .additional-image {
     width: 100%;
     max-width: 100px;
-    height: auto;
+    height: 100px;
     opacity: 0.7;
     cursor: pointer;
     border-radius: 5px;
@@ -73,12 +83,14 @@
 }
 
 .prev-button {
-    left: 25px; /* Posición ajustada para mantener dentro del contenedor */
+    left: -20px; /* Posición ajustada para mantener dentro del contenedor */
     transform: translateY(-50%) rotate(180deg); /* Gira para apuntar a la izquierda */
+    top: 180px;
 }
 
 .next-button {
-    right: 25px; /* Posición ajustada para mantener dentro del contenedor */
+    right: -20px; /* Posición ajustada para mantener dentro del contenedor */
+    top: 180px;
 }
 
 .nav-button:hover {
@@ -95,11 +107,10 @@
     display: flex;
     width: 100%;
     position: relative;
-    left: 53%;
+    left: 49%;
 }
 
 .lens-info h3 {
-
     font-size: 1.2em;
     color: #262626;
 }
@@ -165,25 +176,32 @@
     color: #262626;
 }
 
-.recommendations{
+.recommendations {
     padding-top: 20px;
     border-top: 2px solid #FFA800;
     width: 100%;
 }
 
 @media (max-width: 950px) {
+    .prev-button {
+        top: 150px;
+    }
+    
+    .next-button {
+        top: 150px;
+    }
+
     .lens-detail-container {
         flex-direction: column;
     }
 
-
     .lens-info-title-container {
-        left: 0;
+        left: -30px;
     }
+
     .lens-info {
         margin-left: 0;
         border-left: none;
         margin-top: 20px;
     }
-
 }

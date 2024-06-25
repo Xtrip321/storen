@@ -79,13 +79,14 @@ const LensDetail = () => {
                 <div className="lens-images">
                     <button onClick={() => handleNavigation('prev')} className="nav-button prev-button"></button>
                     {/* Imágenes del carrusel */}
-                    <div className='lens-image-container'>
+                    <div className= 'lens-image-container'>
                         <img src={mainImageSrc} alt={lens.name} className={`main-image ${selectedColorIndex !== null ? 'hidden' : ''}`} />
-                    </div>
+                    
                     {/* Imagen de color seleccionada */}
                     {selectedColorImageSrc && (
                         <img src={selectedColorImageSrc} alt={`Color seleccionado`} className={`color-main-image`} />
                     )}
+                    </div>
                     <button onClick={() => handleNavigation('next')} className="nav-button next-button"></button>
                     <div className="additional-images">
                         {mainImages.map((url, index) => (
