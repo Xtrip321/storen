@@ -15,7 +15,9 @@ const Header = () => {
     return (
         <header>
             <div className="logo">
-                <img src={logoSvg} alt="Logo" /> {/* Usa el SVG como fuente de una imagen */}
+                <Link to='/'>
+                    <img src={logoSvg} alt="Logo" />
+                </Link>
             </div>
 
             <nav className={`menu ${isOpen ? 'open' : ''}`}>
