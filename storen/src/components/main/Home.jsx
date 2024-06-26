@@ -1,5 +1,6 @@
 import React from 'react';
 import logoSvg from '../../assets/svg/storen.svg';
+import prueba from '../../assets/imgs/Types/prueba2.jpg';
 import GlassesType from './GlassesType';
 import sunglasses from '../../assets/imgs/Types/sunglasses.png';
 import optical2 from '../../assets/imgs/Types/optical2.jpeg';
@@ -36,7 +37,7 @@ const Home = () => {
             <div className="general-home-body">
                 <div className="banner-container">
                     <div className="banner-adjuster">
-                        <img className='bannerImg' src="/src/assets/imgs/StorenBanner.png" alt="storen" />
+                        <img className='bannerImg' src={prueba} alt="storen" />
                         <div className="text_logo-adjuster">
                             <img className='storenLogo' src={logoSvg} alt="LogoStoren" />
                             <h2>RESISTENCIA Y ESTILO</h2>
