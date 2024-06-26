@@ -95,7 +95,7 @@ button {
     color: #fff;
     font-size: clamp(1rem, 2vw, 2rem);
     margin-bottom: 20px;
-    
+
 }
 
 .storenLogo {
@@ -111,7 +111,7 @@ button {
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #000;
+    border-top: 20px solid var(--principalGrey);
     cursor: pointer;
     animation: bounce 2s infinite;
 }
@@ -231,8 +231,12 @@ button {
     flex-direction: row-reverse;
 }
 
-.galery-section .text-phrases{
+.galery-section .text-phrases {
     padding: 10px;
+}
+
+.galery-section .text-phrases p{
+    max-width: 650px;
 }
 
 .img-container {
@@ -263,7 +267,7 @@ button {
     font-size: 18px;
 }
 
-.direct-button{
+.direct-button {
     color: #F5F5F5;
     text-align: center;
     background-color: var(--principalYellow);
@@ -275,7 +279,7 @@ button {
     transition: .2s ease-in;
 }
 
-.direct-button:hover{
+.direct-button:hover {
     transform: scale(1.10);
     background-color: #ffba2f;
 }
@@ -302,7 +306,7 @@ button {
 }
 
 @media (max-width: 768px) {
-    
+
     .glassesType-link-adjuster {
         flex-direction: column;
     }
@@ -317,7 +321,7 @@ button {
         height: auto;
     }
 
-    .img-container{
+    .img-container {
         max-width: 100%;
         width: 100%;
         margin: 60px 0;
@@ -326,8 +330,8 @@ button {
     .img-container img {
         height: auto;
     }
-    
-    .text_logo-adjuster{
+
+    .text_logo-adjuster {
         bottom: 100px;
     }
 }
@@ -337,3 +341,56 @@ button {
         font-size: 1.5em;
     }
 }
+
+
+.sector-endLine {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.sector-endLine h3 {
+    line-height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 3em;
+    font-weight: 800;
+    gap: 10px;
+}
+
+.sector-endLine h3::after {
+    margin-left: 10px;
+}
+
+.sector-endLine h3::before {
+    margin-right: 10px;
+}
+
+.sector-endLine.aventure{
+    background-color: var(--principalYellow);
+}
+
+.sector-endLine.aventure h3 {
+    color:#fff;
+}
+
+.sector-endLine.aventure h3::after,
+.sector-endLine.aventure h3::before {
+    content: "aventura";
+    color: var(--principalGrey);
+}
+
+.sector-endLine.urban h3 {
+    color: var(--principalYellow);
+}
+
+.sector-endLine.urban h3::after,
+.sector-endLine.urban h3::before {
+    content: "urbano";
+    color: var(--principalGrey);
+}
+
+

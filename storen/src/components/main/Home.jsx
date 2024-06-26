@@ -1,11 +1,12 @@
 import React from 'react';
 import logoSvg from '../../assets/svg/storen.svg';
-import prueba from '../../assets/imgs/Types/prueba2.jpg';
+import prueba from '../../assets/imgs/Types/prueba3.png';
 import GlassesType from './GlassesType';
 import sunglasses from '../../assets/imgs/Types/sunglasses.png';
 import optical2 from '../../assets/imgs/Types/optical2.jpeg';
 import storen1 from '../../assets/imgs/Types/storen1.png'
 import storen2 from '../../assets/imgs/Types/storen2.png'
+import storen3 from '../../assets/imgs/Types/storen3.png'
 import storen4 from '../../assets/imgs/Types/storen4.png'
 import GaleryText from './GaleryText';
 import { DirectBtn } from '../DirectBtn';
@@ -58,6 +59,9 @@ const Home = () => {
                             ))}
                         </div>
                     </div>
+                    <div className="sector-endLine aventure">
+                        <h3>Aventura</h3>
+                    </div>
                     <div className="galery-section">
                         <section className="section-index">
                             <div className="galery-container">
@@ -83,26 +87,6 @@ const Home = () => {
                             <div className="galery-container">
                                 <div className="text-container">
                                     <GaleryText
-                                        h3text="Descubre la (Versatilidad) en Estilo"
-                                        ptext="Desde el dinamismo (Urbano) hasta un evento (Formal), cada par es creado para quienes buscan un (Equilibrio) perfecto entre (Apariencia) y (Practicidad)."
-                                    />
-                                    <DirectBtn
-                                        title="Explorar"
-                                        blinPath="/catalog"
-                                    />
-                                </div>
-                                <div className="img-container">
-                                    <img
-                                        src={storen2}
-                                        alt="Lentes de sol en diversas situaciones"
-                                    />
-                                </div>
-                            </div>
-                        </section>
-                        <section className="section-index">
-                            <div className="galery-container">
-                                <div className="text-container">
-                                    <GaleryText
                                         h3text="Visión Clara (para Cada Momento)"
                                         ptext="¿Buscas lentes que se adapten a cada aspecto de tu vida? (Explora nuestra colección) de lentes todoterreno y descubre cómo pueden mejorar tu visión y tu estilo, tanto en la ciudad como en la naturaleza. "
                                     />
@@ -113,7 +97,53 @@ const Home = () => {
                                 </div>
                                 <div className="img-container">
                                     <img
+                                        src={storen3}
+                                        alt="Lentes de sol en diversas situaciones"
+                                    />
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div className="sector-endLine urban">
+                        <h3>Urbano</h3>
+                    </div>
+                    <div className="galery-section">
+
+                        <section className="section-index">
+                            <div className="galery-container">
+                                <div className="text-container">
+                                    <GaleryText
+                                        h3text="Descubre la (Versatilidad) en Estilo"
+                                        ptext="Desde el dinamismo (Urbano) hasta un evento (Formal), cada par es creado para quienes buscan un (Equilibrio) perfecto entre (Apariencia) y (Practicidad)."
+                                    />
+                                    <DirectBtn
+                                        title="Explorar"
+                                        blinPath="/catalog"
+                                    />
+                                </div>
+                                <div className="img-container">
+                                    <img
                                         src={storen4}
+                                        alt="Lentes de sol en diversas situaciones"
+                                    />
+                                </div>
+                            </div>
+                        </section>
+                        <section className="section-index">
+                            <div className="galery-container">
+                                <div className="text-container">
+                                    <GaleryText
+                                        h3text="(Adaptabilidad y Funcionalidad) en Cualquier Lugar"
+                                        ptext="Descubre la (Versatilidad) con nuestros Lentes Urbanos. Diseñados para adaptarse a cualquier entorno. Ya sea en la (ciudad), en la (playa), o en la (montaña), nuestros lentes se ajustan a todas las situaciones, brindándote una visión clara y una apariencia impecable."
+                                    />
+                                    <DirectBtn
+                                        title="Explorar"
+                                        blinPath="/catalog"
+                                    />
+                                </div>
+                                <div className="img-container">
+                                    <img
+                                        src={storen2}
                                         alt="Lentes de sol en diversas situaciones"
                                     />
                                 </div>
