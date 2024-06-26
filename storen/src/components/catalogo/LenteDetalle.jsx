@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { models } from '../../data/modelData';
 import Title from '../Title';
-import ProductCard from './ProductCard'; // Asegúrate de importar tu componente ProductCard
+import ProductCard from './ProductCard';
 import '../../styles/catalogo/LenteDetalle.css';
 
 const importImage = (imagePath) => {
@@ -17,21 +17,17 @@ const getRandomModels = (models, count) => {
 const LensDetail = () => {
     const { lensName } = useParams();
 
-    // Mantén todos los hooks fuera de las condiciones
     const [lens, setLens] = useState(null);
     const [randomRecommendedModels, setRandomRecommendedModels] = useState([]);
     const [currentMainImageIndex, setCurrentMainImageIndex] = useState(0);
-    const [selectedColorIndex, setSelectedColorIndex] = useState(null); // Estado para el índice del color seleccionado, inicialmente null
+    const [selectedColorIndex, setSelectedColorIndex] = useState(null);
 
     useEffect(() => {
         const selectedLens = models.find(model => model.name === lensName);
         if (selectedLens) {
             setLens(selectedLens);
-            // Filtrar modelos recomendados basados en el mismo lensType
             const recommendedModels = models.filter(model => model.lensType === selectedLens.lensType && model.name !== selectedLens.name);
-            // Seleccionar 4 modelos aleatoriamente
             setRandomRecommendedModels(getRandomModels(recommendedModels, 4));
-            // Reiniciar índices al cambiar de producto
             setCurrentMainImageIndex(0);
             setSelectedColorIndex(null);
         }
@@ -41,33 +37,27 @@ const LensDetail = () => {
         return <h2>Lente no encontrado</h2>;
     }
 
-    // Preparar imágenes del carrusel y de color
     const mainImages = [importImage(lens.imageUrl.replace('./src/assets/imgs/', '')), ...lens.additionalImages.map(image => importImage(image.imageUrl.replace('./src/assets/imgs/', '')))];
     const colorImages = lens.colors.map(color => importImage(color.imageUrl.replace('./src/assets/imgs/', '')));
 
-    // Maneja la navegación del carrusel
     const handleNavigation = (direction) => {
         const newIndex = direction === 'next' ?
             (currentMainImageIndex + 1) % mainImages.length :
             (currentMainImageIndex + mainImages.length - 1) % mainImages.length;
         setCurrentMainImageIndex(newIndex);
-        setSelectedColorIndex(null); // Desactivar la selección de color al navegar
+        setSelectedColorIndex(null);
     };
 
-    // Maneja el click en una imagen de color
     const handleColorClick = (index) => {
-        setSelectedColorIndex(index); // Actualiza el índice de color seleccionado
+        setSelectedColorIndex(index);
     };
 
-    // Maneja el click en una imagen del carrusel
     const handleImageClick = (index) => {
-        setSelectedColorIndex(null); // Resetea la selección de color cuando se hace clic en una imagen del carrusel
-        setCurrentMainImageIndex(index); // Actualiza la imagen principal a la imagen del carrusel seleccionada
+        setSelectedColorIndex(null);
+        setCurrentMainImageIndex(index);
     };
 
-    // URL de la imagen principal del carrusel
     const mainImageSrc = mainImages[currentMainImageIndex];
-    // URL de la imagen de color seleccionada
     const selectedColorImageSrc = selectedColorIndex !== null ? colorImages[selectedColorIndex] : null;
 
     return (
@@ -78,14 +68,11 @@ const LensDetail = () => {
                 </div>
                 <div className="lens-images">
                     <button onClick={() => handleNavigation('prev')} className="nav-button prev-button"></button>
-                    {/* Imágenes del carrusel */}
-                    <div className= 'lens-image-container'>
+                    <div className='lens-image-container'>
                         <img src={mainImageSrc} alt={lens.name} className={`main-image ${selectedColorIndex !== null ? 'hidden' : ''}`} />
-                    
-                    {/* Imagen de color seleccionada */}
-                    {selectedColorImageSrc && (
-                        <img src={selectedColorImageSrc} alt={`Color seleccionado`} className={`color-main-image`} />
-                    )}
+                        {selectedColorImageSrc && (
+                            <img src={selectedColorImageSrc} alt={`Color seleccionado`} className={`color-main-image`} />
+                        )}
                     </div>
                     <button onClick={() => handleNavigation('next')} className="nav-button next-button"></button>
                     <div className="additional-images">
@@ -102,14 +89,14 @@ const LensDetail = () => {
                         {lens.colors.map((color, index) => (
                             <img
                                 key={index}
-                                src={colorImages[index]} // Usa la URL importada de colorImages
+                                src={colorImages[index]}
                                 alt={`Color ${index + 1}`}
                                 className={`color-image ${selectedColorIndex === index ? 'selected' : ''}`}
                                 onClick={() => handleColorClick(index)}
                             />
                         ))}
                     </div>
-                    <button className="find-button">Contactanos!</button>
+                    <Link to={`/contact?lens=${lens.name}`} className="find-button">Contactanos!</Link>
                     <p>{lens.description}</p>
                     <ul>
                         <li><strong>Frente:</strong> {lens.frame}</li>

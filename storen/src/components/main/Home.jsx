@@ -6,9 +6,7 @@ import sunglasses from '../../assets/imgs/Types/sunglasses.png';
 import optical2 from '../../assets/imgs/Types/optical2.jpeg';
 import storen1 from '../../assets/imgs/Types/storen1.png'
 import storen2 from '../../assets/imgs/Types/storen2.png'
-import storen3 from '../../assets/imgs/Types/storen3.png'
 import storen4 from '../../assets/imgs/Types/storen4.png'
-import storen5 from '../../assets/imgs/Types/storen5.png'
 import GaleryText from './GaleryText';
 import { DirectBtn } from '../DirectBtn';
 
@@ -20,14 +18,14 @@ const Home = () => {
             RestTitle: 'UNGLASSES',
             image: sunglasses,
             imgDescription: 'Sunglasses',
-            link: '/catalog'
+            link: '/catalog?filter=Sunglasses'
         },
         {
             firtLetterTitle: "O",
             RestTitle: 'PTICS',
             image: optical2,
             imgDescription: 'Optical',
-            link: '/catalog'
+            link: '/catalog?filter=Optical'
         }
     ];
 

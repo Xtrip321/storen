@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import '../../styles/catalogo/Catalogo.css';
 import ProductCard from './ProductCard';
 import { models } from '../../data/modelData';
@@ -11,12 +12,25 @@ import '../../styles/catalogo/FilterPanel.css';
 const ITEMS_PER_PAGE = 12;
 
 const Catalog = () => {
+    const location = useLocation();
     const [isOpen, setIsOpen] = useState(false);
     const [name, setName] = useState('');
     const [lensType, setLensType] = useState('Todos');
     const [size, setSize] = useState(null);
     const [filteredModels, setFilteredModels] = useState(models);
     const [currentPage, setCurrentPage] = useState(1);
+
+    useEffect(() => {
+        const searchParams = new URLSearchParams(location.search);
+        const filter = searchParams.get('filter');
+        if (filter) {
+            setLensType(filter);
+        }
+    }, [location.search]);
+
+    useEffect(() => {
+        handleFilter();
+    }, [lensType]);
 
     useEffect(() => {
         setCurrentPage(1);
@@ -111,7 +125,6 @@ const Catalog = () => {
             <div className="catalog-container">
                 {paginatedModels.map((product, index) => (
                     <ProductCard key={index} product={product} />
-                    
                 ))} 
             </div>
             <Pagination 

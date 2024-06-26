@@ -8,23 +8,31 @@ import LenteDetalle from './components/catalogo/LenteDetalle'; // Importar el nu
 import './styles/main.css';
 import ContactForm from './components/contact/Contact';
 import AboutUs from './components/aboutUs/AboutUs';
+import useScrollToTop from './hooks/useScrollToTop';
 
 const App = () => {
     return (
         <Router>
-            <div>
-                <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/catalog" element={<Catalog />} />
-                    <Route path="/catalog/:lensName" element={<LenteDetalle />} /> {/* Nueva ruta */}
-                    <Route path="/contact" element={<ContactForm />} />
-                    <Route path="/about-us" element={<AboutUs />} />
-                </Routes>
-                <Footer />
-            </div>
+            <ScrollToTopHandler>
+                <div>
+                    <Header />
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/catalog" element={<Catalog />} />
+                        <Route path="/catalog/:lensName" element={<LenteDetalle />} /> {/* Nueva ruta */}
+                        <Route path="/contact" element={<ContactForm />} />
+                        <Route path="/about-us" element={<AboutUs />} />
+                    </Routes>
+                    <Footer />
+                </div>
+            </ScrollToTopHandler>
         </Router>
     );
+};
+
+const ScrollToTopHandler = ({ children }) => {
+    useScrollToTop();
+    return <>{children}</>;
 };
 
 export default App;
