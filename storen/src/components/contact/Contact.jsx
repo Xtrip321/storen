@@ -62,7 +62,7 @@ const ContactForm = () => {
                 </div>
                 <GaleryText
                     h3text="Ponte en (Contacto)!"
-                    ptext="En (STOREN), nos dedicamos a fabricar lentes de la más alta calidad para todo tipo de necesidades, desde lentes de sol hasta soluciones ópticas especializadas. Si tienes alguna pregunta, consulta, o simplemente deseas conocer más sobre nuestros productos y servicios, estamos aquí para ayudarte."
+                    ptext="Para preguntas o más información sobre nuestros productos y servicios, estamos aquí para ayudarte."
                 />
                 <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
                     <div className="form-group">

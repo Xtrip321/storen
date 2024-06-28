@@ -27,6 +27,8 @@
     text-align: center; /* Centra el texto */
 }
 
+
+
 @media (max-width: 430px) {
     .catalog-container {
         grid-template-columns: 1fr; /* Solo una columna en pantallas estrechas */
