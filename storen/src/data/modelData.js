@@ -376,45 +376,45 @@ export const models = [
       "XL"
     ],
     "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
-    "imageUrl": "./src/assets/imgs/Modelos/9_Vista/MAIN_1.png",
+    "imageUrl": "./src/assets/imgs/Modelos/100_Vista/MAIN_1.png",
     "colors": [
       {
         "name": "1",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/COLOR_1.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/COLOR_1.png"
       },
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/COLOR_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/COLOR_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/COLOR_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/COLOR_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/COLOR_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/COLOR_4.png"
       },
       {
         "name": "5",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/COLOR_5.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/COLOR_5.png"
       },
       {
         "name": "6",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/COLOR_6.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/COLOR_6.png"
       }
     ],
     "additionalImages": [
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/MAIN_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/MAIN_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/MAIN_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/MAIN_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/9_Vista/MAIN_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/100_Vista/MAIN_4.png"
       }
     ],
     "frame": "Armazon de G-FLEX",
@@ -430,45 +430,45 @@ export const models = [
       "XL"
     ],
     "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
-    "imageUrl": "./src/assets/imgs/Modelos/10_Refine/MAIN_1.png",
+    "imageUrl": "./src/assets/imgs/Modelos/102_Refine/MAIN_1.png",
     "colors": [
       {
         "name": "1",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/COLOR_1.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/COLOR_1.png"
       },
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/COLOR_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/COLOR_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/COLOR_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/COLOR_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/COLOR_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/COLOR_4.png"
       },
       {
         "name": "5",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/COLOR_5.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/COLOR_5.png"
       },
       {
         "name": "6",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/COLOR_6.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/COLOR_6.png"
       }
     ],
     "additionalImages": [
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/MAIN_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/MAIN_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/MAIN_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/MAIN_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/10_Refine/MAIN_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/102_Refine/MAIN_4.png"
       }
     ],
     "frame": "Armazon de G-FLEX",
@@ -484,45 +484,45 @@ export const models = [
       "XL"
     ],
     "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
-    "imageUrl": "./src/assets/imgs/Modelos/11_Optima/MAIN_1.png",
+    "imageUrl": "./src/assets/imgs/Modelos/103_Optima/MAIN_1.png",
     "colors": [
       {
         "name": "1",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/COLOR_1.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/COLOR_1.png"
       },
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/COLOR_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/COLOR_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/COLOR_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/COLOR_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/COLOR_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/COLOR_4.png"
       },
       {
         "name": "5",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/COLOR_5.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/COLOR_5.png"
       },
       {
         "name": "6",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/COLOR_6.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/COLOR_6.png"
       }
     ],
     "additionalImages": [
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/MAIN_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/MAIN_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/MAIN_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/MAIN_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/11_Optima/MAIN_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/103_Optima/MAIN_4.png"
       }
     ],
     "frame": "Armazon de G-FLEX",
@@ -538,45 +538,45 @@ export const models = [
       "XL"
     ],
     "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
-    "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/MAIN_1.png",
+    "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/MAIN_1.png",
     "colors": [
       {
         "name": "1",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/COLOR_1.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/COLOR_1.png"
       },
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/COLOR_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/COLOR_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/COLOR_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/COLOR_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/COLOR_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/COLOR_4.png"
       },
       {
         "name": "5",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/COLOR_5.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/COLOR_5.png"
       },
       {
         "name": "6",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/COLOR_6.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/COLOR_6.png"
       }
     ],
     "additionalImages": [
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/MAIN_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/MAIN_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/MAIN_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/MAIN_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/12_Clarity/MAIN_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/104_Clarity/MAIN_4.png"
       }
     ],
     "frame": "Armazon de G-FLEX",
@@ -592,45 +592,45 @@ export const models = [
       "XL"
     ],
     "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
-    "imageUrl": "./src/assets/imgs/Modelos/13_Precision/MAIN_1.png",
+    "imageUrl": "./src/assets/imgs/Modelos/105_Precision/MAIN_1.png",
     "colors": [
       {
         "name": "1",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/COLOR_1.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/COLOR_1.png"
       },
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/COLOR_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/COLOR_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/COLOR_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/COLOR_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/COLOR_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/COLOR_4.png"
       },
       {
         "name": "5",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/COLOR_5.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/COLOR_5.png"
       },
       {
         "name": "6",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/COLOR_6.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/COLOR_6.png"
       }
     ],
     "additionalImages": [
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/MAIN_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/MAIN_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/MAIN_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/MAIN_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/13_Precision/MAIN_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/105_Precision/MAIN_4.png"
       }
     ],
     "frame": "Armazon de G-FLEX",
@@ -646,45 +646,45 @@ export const models = [
       "XL"
     ],
     "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
-    "imageUrl": "./src/assets/imgs/Modelos/14_Exact/MAIN_1.png",
+    "imageUrl": "./src/assets/imgs/Modelos/106_Exact/MAIN_1.png",
     "colors": [
       {
         "name": "1",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/COLOR_1.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/COLOR_1.png"
       },
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/COLOR_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/COLOR_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/COLOR_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/COLOR_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/COLOR_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/COLOR_4.png"
       },
       {
         "name": "5",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/COLOR_5.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/COLOR_5.png"
       },
       {
         "name": "6",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/COLOR_6.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/COLOR_6.png"
       }
     ],
     "additionalImages": [
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/MAIN_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/MAIN_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/MAIN_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/MAIN_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/14_Exact/MAIN_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/106_Exact/MAIN_4.png"
       }
     ],
     "frame": "Armazon de G-FLEX",
@@ -700,45 +700,45 @@ export const models = [
       "XL"
     ],
     "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
-    "imageUrl": "./src/assets/imgs/Modelos/15_Grace/MAIN_1.png",
+    "imageUrl": "./src/assets/imgs/Modelos/107_Grace/MAIN_1.png",
     "colors": [
       {
         "name": "1",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/COLOR_1.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/COLOR_1.png"
       },
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/COLOR_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/COLOR_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/COLOR_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/COLOR_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/COLOR_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/COLOR_4.png"
       },
       {
         "name": "5",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/COLOR_5.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/COLOR_5.png"
       },
       {
         "name": "6",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/COLOR_6.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/COLOR_6.png"
       }
     ],
     "additionalImages": [
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/MAIN_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/MAIN_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/MAIN_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/MAIN_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/15_Grace/MAIN_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/107_Grace/MAIN_4.png"
       }
     ],
     "frame": "Armazon de G-FLEX",
@@ -754,45 +754,477 @@ export const models = [
       "XL"
     ],
     "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
-    "imageUrl": "./src/assets/imgs/Modelos/16_Facet/MAIN_1.png",
+    "imageUrl": "./src/assets/imgs/Modelos/108_Facet/MAIN_1.png",
     "colors": [
       {
         "name": "1",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/COLOR_1.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/COLOR_1.png"
       },
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/COLOR_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/COLOR_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/COLOR_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/COLOR_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/COLOR_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/COLOR_4.png"
       },
       {
         "name": "5",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/COLOR_5.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/COLOR_5.png"
       },
       {
         "name": "6",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/COLOR_6.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/COLOR_6.png"
       }
     ],
     "additionalImages": [
       {
         "name": "2",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/MAIN_2.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/MAIN_2.png"
       },
       {
         "name": "3",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/MAIN_3.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/MAIN_3.png"
       },
       {
         "name": "4",
-        "imageUrl": "./src/assets/imgs/Modelos/16_Facet/MAIN_4.png"
+        "imageUrl": "./src/assets/imgs/Modelos/108_Facet/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
+  },
+  {
+    "name": "Acuity",
+    "lensType": "Optical",
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
+    "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/MAIN_1.png",
+    "colors": [
+      {
+        "name": "1",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/COLOR_1.png"
+      },
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/COLOR_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/COLOR_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/COLOR_4.png"
+      },
+      {
+        "name": "5",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/COLOR_5.png"
+      },
+      {
+        "name": "6",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/COLOR_6.png"
+      }
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/109_Acuity/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
+  },
+  {
+    "name": "Sight",
+    "lensType": "Optical",
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
+    "imageUrl": "./src/assets/imgs/Modelos/110_Sight/MAIN_1.png",
+    "colors": [
+      {
+        "name": "1",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/COLOR_1.png"
+      },
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/COLOR_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/COLOR_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/COLOR_4.png"
+      },
+      {
+        "name": "5",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/COLOR_5.png"
+      },
+      {
+        "name": "6",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/COLOR_6.png"
+      }
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/110_Sight/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
+  },
+  {
+    "name": "View",
+    "lensType": "Optical",
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
+    "imageUrl": "./src/assets/imgs/Modelos/111_View/MAIN_1.png",
+    "colors": [
+      {
+        "name": "1",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/COLOR_1.png"
+      },
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/COLOR_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/COLOR_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/COLOR_4.png"
+      },
+      {
+        "name": "5",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/COLOR_5.png"
+      },
+      {
+        "name": "6",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/COLOR_6.png"
+      }
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/111_View/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
+  },
+  {
+    "name": "Clearer",
+    "lensType": "Optical",
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
+    "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/MAIN_1.png",
+    "colors": [
+      {
+        "name": "1",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/COLOR_1.png"
+      },
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/COLOR_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/COLOR_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/COLOR_4.png"
+      },
+      {
+        "name": "5",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/COLOR_5.png"
+      },
+      {
+        "name": "6",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/COLOR_6.png"
+      }
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/112_Clearer/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
+  },
+  {
+    "name": "Lens",
+    "lensType": "Optical",
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
+    "imageUrl": "./src/assets/imgs/Modelos/113_Lens/MAIN_1.png",
+    "colors": [
+      {
+        "name": "1",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/COLOR_1.png"
+      },
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/COLOR_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/COLOR_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/COLOR_4.png"
+      },
+      {
+        "name": "5",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/COLOR_5.png"
+      },
+      {
+        "name": "6",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/COLOR_6.png"
+      }
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/113_Lens/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
+  },
+  {
+    "name": "Focus",
+    "lensType": "Optical",
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
+    "imageUrl": "./src/assets/imgs/Modelos/114_Focus/MAIN_1.png",
+    "colors": [
+      {
+        "name": "1",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/COLOR_1.png"
+      },
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/COLOR_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/COLOR_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/COLOR_4.png"
+      },
+      {
+        "name": "5",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/COLOR_5.png"
+      },
+      {
+        "name": "6",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/COLOR_6.png"
+      }
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/114_Focus/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
+  },
+  {
+    "name": "Sharp",
+    "lensType": "Optical",
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
+    "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/MAIN_1.png",
+    "colors": [
+      {
+        "name": "1",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/COLOR_1.png"
+      },
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/COLOR_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/COLOR_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/COLOR_4.png"
+      },
+      {
+        "name": "5",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/COLOR_5.png"
+      },
+      {
+        "name": "6",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/COLOR_6.png"
+      }
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/115_Sharp/MAIN_4.png"
+      }
+    ],
+    "frame": "Armazon de G-FLEX",
+    "temple": "Sistema de bisagras flexibles",
+    "lens": "Policarbonato / 100% proteccion UVA y UVB",
+    "weight": "54 Gramos"
+  },
+  {
+    "name": "Pure",
+    "lensType": "Optical",
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "description": "\"Descubre el mundo con una nueva perspectiva con nuestros Lentes Venture Xplorer. Diseñados para los amantes de la exploración y la adrenalina, estos lentes son la combinación perfecta de durabilidad, estilo y protección.\"",
+    "imageUrl": "./src/assets/imgs/Modelos/116_Pure/MAIN_1.png",
+    "colors": [
+      {
+        "name": "1",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/COLOR_1.png"
+      },
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/COLOR_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/COLOR_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/COLOR_4.png"
+      },
+      {
+        "name": "5",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/COLOR_5.png"
+      },
+      {
+        "name": "6",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/COLOR_6.png"
+      }
+    ],
+    "additionalImages": [
+      {
+        "name": "2",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/MAIN_2.png"
+      },
+      {
+        "name": "3",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/MAIN_3.png"
+      },
+      {
+        "name": "4",
+        "imageUrl": "./src/assets/imgs/Modelos/116_Pure/MAIN_4.png"
       }
     ],
     "frame": "Armazon de G-FLEX",

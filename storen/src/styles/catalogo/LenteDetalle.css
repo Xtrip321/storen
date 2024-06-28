@@ -101,6 +101,7 @@
     flex: 1;
     padding: 20px;
     margin-left: 20px;
+    max-width: 90vw;
 }
 
 .lens-info-title-container {
@@ -150,11 +151,13 @@
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-align: center;
 }
 
 .find-button:hover {
     background-color: #e68900;
 }
+
 
 .lens-info p {
     font-size: 1em;
@@ -180,6 +183,7 @@
     padding-top: 20px;
     border-top: 2px solid #FFA800;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 950px) {
@@ -200,6 +204,7 @@
     }
 
     .lens-info {
+        padding: 0;
         margin-left: 0;
         border-left: none;
         margin-top: 20px;
